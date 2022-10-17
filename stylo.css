@@ -1,0 +1,563 @@
+@font-face {
+    font-family: prueba;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: prueba;
+}
+
+/* main */
+
+
+.nav-header {
+    display:flex;
+    justify-content:center;
+    position: relative;
+    width: 100%;
+    height: 57px;
+    background: rgb(250, 250, 250);
+}
+
+
+/* slider */
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 300%;
+    animation: slider 13s infinite alternate ease-in-out;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    position: relative;
+    width: 100%;
+    height: 440px;
+}
+
+@keyframes slider {
+    0% {margin-left: 0;}
+    30% {margin-left: 0;} 
+    
+    35% {margin-left: -100%;} 
+    75% {margin-left: -100%;} 
+
+    80% {margin-left: -200%;} 
+    100% {margin-left: -200%;} 
+
+}
+
+
+
+/* Header */
+
+
+.header {
+    display:flex;
+    justify-content:center;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background: rgb(68, 68, 68);
+}
+
+.container-logo {
+    width: 50%;
+    height: 100%;
+}
+
+.imagen {
+    position: relative;
+    top: 10px;
+}
+
+.logo-buscar {
+    display: flex;
+    width: 1140px;
+    height: 100%;
+    background: rgb(68, 68, 68);
+}
+
+
+.container-buscar {
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    left: 65%;
+
+}
+
+
+.container-buscar input {
+    position: relative;
+    left: 47%;
+    top: 15px;
+    width: 210px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    outline: none;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 30px;
+    background: rgb(95, 95, 95);
+}
+
+.btn {
+    position: relative;
+    top: -23px;
+    right: -86%;
+    background-color: rgb(85, 85, 85);
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(220, 224, 228);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgba(220, 224, 228, 0.746);
+    font-size: 14px;
+}
+
+/* Nav */
+
+.navprincipal {
+    width: 1140px;
+    height: 100%;
+    background: rgb(250, 250, 250);
+}
+
+.menu {
+
+    list-style: none;
+}
+
+.menu li a {
+
+    text-decoration: none;
+    color: #777;
+    padding: 20px;
+    display: block;
+    font-size: 16px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: rgb(238, 238, 238);
+}
+
+
+/* Section-1 */
+
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background: rgb(249, 249, 249);
+}
+
+
+
+.container1 {
+
+    width: 1140px;
+    height: 100%;
+    background: rgb(249, 249, 249);   
+}
+
+
+
+.titulo-section1 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.titulo-section1 h1 {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 24px;
+    color: #444;
+}
+
+.titulo-section1 p {
+    font-size: 15px;
+    color: #777;
+}
+
+
+.cards-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+   
+}
+
+.card {
+    width: 263px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    border-bottom: 2px solid #AA9D6C;
+}
+
+.card:hover {
+    background-color: rgb(228, 227, 220);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 1s ease;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #444;
+}
+
+
+.card p {
+    font-size: 14px;
+    color: #888;
+}
+
+.card-image {
+    
+    height: 160px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.imagen1 {
+    background-image: url(./img/img1.jpg)
+}
+
+.imagen2 {
+    background-image: url(./img/img2.jpg)
+}
+
+.imagen3 {
+    background-image: url(./img/img3.jpg)
+}
+
+.imagen4 {
+    background-image: url(./img/img4.jpg)
+}
+
+
+/* Section-2 */
+
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background: rgb(226, 225, 217);
+}
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    height: 100%;
+    background: rgb(226, 225, 217);    
+}
+
+.titulo-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+.titulo-section2 h1{
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 24px;
+    color: #444;
+}
+
+.titulo-section2 p {
+    font-size: 15px;
+    color: #777;
+}
+
+
+
+.contenedor-cajas2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background: rgb(226, 225, 217);
+}
+
+
+
+.box {
+    width: 350px;
+    height: 380px;
+    background: rgb(235, 234, 229); 
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+.titulo-grid {
+    position: relative;
+    width: 70%;
+    height: 13%;
+    left: 80px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+}
+
+
+.container-grid {
+    position: relative;
+    margin: 11px;
+    width: 100%;
+    height: 48%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px; 
+    
+    }
+
+
+
+.miniaturas {
+    width: 80px;
+    height: 80px;
+}
+
+
+.miniaturas:hover {
+    filter: brightness(120%);
+}
+
+
+.miniaturas img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.sub-grid {
+    position: relative;
+    top: 8%;
+    width: 80%;
+    height: 28%;
+    left: 35px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.sub-grid a {
+    text-decoration: none;
+    padding: 3px;
+    font-size: 13px;
+    color: #888;
+}
+
+
+.sub-grid a:link {
+    color: #888;
+}
+
+
+
+.sub-grid a:hover {
+    text-decoration: underline;
+}
+
+.sub-grid a:first-child {
+    border-right: 1px solid #888;
+}
+
+.sub-grid a:nth-child(2) {
+    border-right: 1px solid #888;
+}
+
+.sub-grid a:nth-child(3) {
+    border-right: 1px solid #888;
+}
+
+.sub-grid a:nth-child(4) {
+    border-right: 1px solid #888;
+}
+
+
+/* Section-3 */
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.container3 {
+
+    width: 1140px;
+    height: 100%;
+    background: rgb(255, 255, 255);   
+}
+
+
+
+
+.titulo-section3 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.titulo-section3 h1 {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 24px;
+    color: #444;
+}
+
+
+.titulo-section3 p{
+    color: #777;
+}
+
+
+.contenedor-cajas3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box3 {
+    position: relative;
+    width: 550px;
+    top: 55px;
+    height: 350px;
+    margin: 10px;
+}
+
+.box4 {
+    width: 550px;
+    height: 350px;
+    margin: 10px;
+}
+
+
+
+
+
+/* Section-4 */
+
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 570px;
+    background: rgb(68, 68, 68);
+}
+
+
+
+.container4 {
+
+    width: 1140px;
+    height: 100%;
+    background: rgb(68, 68, 68);    
+}
+
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 75px;    
+    background: rgb(51, 51, 51);
+}
+
+.footer h3 {
+    font-size: 13px;
+    color: #ccc;
+}
+
+
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+
+
+@media only screen  and (max-width:900px) {
+
+	
+}
