@@ -1,6 +1,6 @@
 @font-face {
     font-family: prueba;
-    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+    src: url(fonts/Poppins-Regular.ttf);
 }
 
 * {
@@ -25,9 +25,14 @@
 
 /* slider */
 
+.containerSlider {
+    display:flex;
+    justify-content:center;
+}
+
 .slider {
-    position: relative;
-    width: 100%;
+    /* position: relative; */
+    width: 62%;
     height: 400px;
     overflow: hidden;
 }
@@ -154,7 +159,7 @@
 .menu li a {
 
     text-decoration: none;
-    color: #777;
+    color: #444;
     padding: 20px;
     display: block;
     font-size: 16px;
@@ -240,6 +245,7 @@
     cursor: pointer;
     transform: scale(1.04);
     transition: all 1s ease;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
 
 .card h2 {
